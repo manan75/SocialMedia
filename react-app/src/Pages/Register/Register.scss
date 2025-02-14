@@ -1,4 +1,4 @@
-.Login{
+.Register{
     height: 100vh;
     background-color:aliceblue;
     display: flex;
@@ -10,6 +10,7 @@
         border-radius: 10px;
         min-height: 600px;
         overflow: hidden;
+        flex-direction: row-reverse;
         .left{
             flex: 1;
             background-color: white;
