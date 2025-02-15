@@ -1,6 +1,7 @@
 
 import React from 'react'
 import './Register.scss'
+import { Link } from 'react-router-dom';
  function Register(){
   return (
     <div className='Register'>
@@ -11,7 +12,9 @@ import './Register.scss'
                     loream ipsum i loream ipsum i  loream ipsum i  loream ipsum i  loream ipsum i  loream ipsum i  loream ipsum i
                 </p>
                 <span>Do you have an account?</span>
+                <Link to="/login">
                 <button> Login</button>
+                </Link>
             </div>
             <div className='right'>
                 <h1>Register</h1>

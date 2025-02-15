@@ -1,6 +1,7 @@
 
 import React from 'react'
 import './Login.scss';
+import { Link } from 'react-router-dom';
  function Login(){
   return (
     <div className='Login'>
@@ -11,7 +12,9 @@ import './Login.scss';
                     loream ipsum i loream ipsum i  loream ipsum i  loream ipsum i  loream ipsum i  loream ipsum i  loream ipsum i
                 </p>
                 <span>Don't have an account?</span>
+                <Link to="/register">
                 <button> Register</button>
+                </Link>
             </div>
             <div className='right'>
                 <h1>Login</h1>
